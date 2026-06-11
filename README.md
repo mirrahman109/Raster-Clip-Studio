@@ -141,6 +141,10 @@ Press `[I]` to enter any custom line endpoints (`x1 y1 x2 y2`) and clip window b
 This Pixel log shows how the pixels are iterating in the algorithm. Besides it shows if the pixel is outside or inside the clipping window.
 <img width="999" height="698" alt="Pixel Log" src="https://github.com/user-attachments/assets/a438adcb-e5c6-4661-8af4-802122ed4010" />
 
+### Demo Video:
+https://github.com/user-attachments/assets/d58edf19-8f70-4e11-a1d2-3d7df82adafc
+
+
 
 ### HUD & Panels
 - Top bar: application title, subtitle, and active test case name.

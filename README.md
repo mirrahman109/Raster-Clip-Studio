@@ -112,6 +112,13 @@ Five built-in cases share the same centred clip window (`x: 10–30`, `y: 7–21
 | 4 | Negative-slope line (tests sy = −1 octant handling) |
 | 5 | Horizontal line |
 
+
+##Case 1: Line completely inside the clip window
+<img width="998" height="694" alt="Case 1" src="https://github.com/user-attachments/assets/612e14b3-1bc4-400b-8bf2-1787702464a6" />
+
+
+
+
 ### Manual Input
 Press `[I]` to enter any custom line endpoints (`x1 y1 x2 y2`) and clip window bounds (`xmin ymin xmax ymax`). The current values are pre-loaded into each field so you can edit them in place rather than retyping from scratch. Arrow keys let you navigate between fields and position the cursor precisely within a value.
 

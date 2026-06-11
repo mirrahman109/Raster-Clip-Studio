@@ -113,14 +113,34 @@ Five built-in cases share the same centred clip window (`x: 10–30`, `y: 7–21
 | 5 | Horizontal line |
 
 
-##Case 1: Line completely inside the clip window
+### Case 1: Line completely inside the clip window
 <img width="998" height="694" alt="Case 1" src="https://github.com/user-attachments/assets/612e14b3-1bc4-400b-8bf2-1787702464a6" />
 
+### Case 2: Line completely outside (trivial reject)
+
+<img width="998" height="696" alt="Case 2" src="https://github.com/user-attachments/assets/f35f2bb4-830d-4134-80c3-01d20d549896" />
+
+### Case 3: Line crossing two clip boundaries
+
+<img width="999" height="694" alt="Case 3" src="https://github.com/user-attachments/assets/656e331a-c625-4ff3-8e1d-275e189b5dde" />
+
+### Case 4: Negative-slope line (tests sy = −1 octant handling)
+
+<img width="998" height="702" alt="Case 4" src="https://github.com/user-attachments/assets/ee0edbef-6a7e-41a8-8a5e-9303991ff16a" />
+
+### Case 4: Horizontal line
+
+<img width="998" height="694" alt="Case 5" src="https://github.com/user-attachments/assets/c0c1ae48-d1ae-4f88-ac63-523d3e268fd7" />
 
 
-
-### Manual Input
+### Manual Input:
 Press `[I]` to enter any custom line endpoints (`x1 y1 x2 y2`) and clip window bounds (`xmin ymin xmax ymax`). The current values are pre-loaded into each field so you can edit them in place rather than retyping from scratch. Arrow keys let you navigate between fields and position the cursor precisely within a value.
+<img width="995" height="696" alt="Manual Input" src="https://github.com/user-attachments/assets/3e7da2c5-e7cb-4266-9338-d9fd709fbab9" />
+
+### Pixel Log:
+This Pixel log shows how the pixels are iterating in the algorithm. Besides it shows if the pixel is outside or inside the clipping window.
+<img width="999" height="698" alt="Pixel Log" src="https://github.com/user-attachments/assets/a438adcb-e5c6-4661-8af4-802122ed4010" />
+
 
 ### HUD & Panels
 - Top bar: application title, subtitle, and active test case name.
